@@ -7,3 +7,10 @@ export function getAll(){
 		payload: todoData
 	}
 }
+
+export function addTodo(item){
+	return {
+		type: types.ADD_TODO,
+		payload: item
+	}
+}
